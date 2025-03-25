@@ -1,8 +1,9 @@
 Инструкция по развертыванию
-Установите Docker и Docker-compose
 
-Создайте файл docker-compose.yml:
+1. Установите Docker и Docker-compose
 
+2. Создайте файл docker-compose.yml:
+```
 yaml
 Copy
 version: '3'
@@ -25,3 +26,4 @@ services:
       - tarantool
     environment:
       - TARAN
+```
